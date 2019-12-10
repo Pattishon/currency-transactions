@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Main correctly 1`] = `
+<p
+  className="transactions-sum"
+>
+  <h2
+    className="transactions-sum-title"
+  >
+    Suma wszystkich transakcji:
+  </h2>
+   
+  11,22
+   EURO (
+  22,44 PLN
+  )
+</p>
+`;

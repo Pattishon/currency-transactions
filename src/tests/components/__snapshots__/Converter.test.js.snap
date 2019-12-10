@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Converter correctly 1`] = `
+<div
+  className="converter"
+>
+  1 EURO =
+   
+  <input
+    className="converter__input"
+    min={0}
+    onChange={[Function]}
+    placeholder="wpisz wartość w zł"
+    type="text"
+    value={2}
+  />
+   
+  PLN
+</div>
+`;

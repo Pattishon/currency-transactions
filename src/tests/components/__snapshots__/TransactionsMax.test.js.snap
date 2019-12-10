@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Main correctly 1`] = `
+<div
+  className="transactions-max"
+>
+  <h2
+    className="transactions-max__title"
+  >
+     
+    Transakcja o największej kwocie:
+  </h2>
+  <p>
+    another transaction: 0,22 EURO (0,44 PLN) 
+  </p>
+</div>
+`;

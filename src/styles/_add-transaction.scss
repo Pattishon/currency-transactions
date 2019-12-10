@@ -1,0 +1,29 @@
+.add-transaction {
+  background: #fff;
+  border-radius: $s-size;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  padding: $m-size;
+}
+.add-transaction__title {
+  font-size: normal;
+  font-weight: 500;
+}
+.add-transaction__error {
+  color: red;
+}
+
+.add-transaction__field {
+  border-radius: 0.3rem;
+  margin: $s-size;
+  padding: $s-size;
+  text-align: center;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+.button--add {
+  margin-bottom: $m-size;
+}

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AddTransaction correctly 1`] = `
+<div
+  className="add-transaction"
+>
+  <h2
+    className="add-transaction__title"
+  >
+    Dodaj nową transakcję
+  </h2>
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      <label>
+        Nazwa transakcji
+        <input
+          className="add-transaction__field"
+          onChange={[Function]}
+          placeholder="nazwa transakcji"
+          type="text"
+          value=""
+        />
+      </label>
+    </div>
+    <div>
+      <label>
+        Wartość w EURO:
+         
+        <input
+          className="add-transaction__field"
+          min="1"
+          onChange={[Function]}
+          placeholder="wartość w EURO"
+          type="text"
+          value=""
+        />
+      </label>
+    </div>
+    <p>
+      Wartość w PLN:
+       
+      -
+    </p>
+    <button
+      className="button button--add"
+      type="submit"
+    >
+      Dodaj transakcję
+    </button>
+  </form>
+</div>
+`;

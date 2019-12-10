@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TransactionsList correctly 1`] = `
+<div
+  className="transactions-list"
+>
+  <h2
+    className="transactions-list__title"
+  >
+    Lista wszystkich transakcji
+  </h2>
+  <ul
+    className="transactions-list__list"
+  >
+    <li
+      className="transactions-list__list-item"
+      key="123"
+    >
+      <p>
+        <span
+          className="transactions-list__description"
+        >
+          test
+          :
+           
+        </span>
+        2,00
+         EURO (
+        4,00 PLN
+        )
+      </p>
+      <div>
+        <button
+          className="button button--transactions-list"
+          onClick={[Function]}
+        >
+          Usuń transakcję
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

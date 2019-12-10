@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Main correctly 1`] = `
+<div
+  className="app"
+>
+  <h1
+    className="title"
+  >
+    Transakcje walutowe
+  </h1>
+  <div
+    className="transactions"
+  >
+    <div>
+      <Connect(Converter) />
+      <Connect(AddTransaction) />
+      <Connect(TransactionsList) />
+      <Connect(TransactionsSum) />
+    </div>
+    <Connect(TransactionsMax) />
+  </div>
+</div>
+`;
