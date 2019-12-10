@@ -10,10 +10,10 @@ export const TransactionsSum = ({ converter, transactions }) => {
   const totalEuro = numeral(total / 100).format("0.00");
   const totalPln = numeral((total * converter) / 100).format("0.00 $");
   return (
-    <p className="transactions-sum">
+    <div className="transactions-sum">
       <h2 className="transactions-sum-title">Suma wszystkich transakcji:</h2>{" "}
       {totalEuro} EURO ({totalPln})
-    </p>
+    </div>
   );
 };
 

@@ -24,7 +24,15 @@ export const deleteTransaction = id => ({
 });
 
 export const fetchState = key => {
-  const value = JSON.parse(localStorage.getItem(key));
+  const localVal = localStorage.getItem(key);
+  let value;
+  if (key === "converter") {
+    if (localVal.slice(-1) === ".") {
+      value = localVal.replace(".", "");
+    } else value = localVal;
+  } else {
+    value = JSON.parse(localStorage.getItem(key));
+  }
   return {
     type: Actions.FETCH_STATE,
     value,
