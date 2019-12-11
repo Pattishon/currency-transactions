@@ -18,7 +18,7 @@ export const TransactionsMax = ({ converter, transactions }) => {
         {" "}
         Transakcja o największej kwocie:
       </h2>
-      <p>
+      <p className="transactions-max__transaction">
         {max
           ? `${max.description}: ${maxEuro} EURO (${maxPln}) `
           : "nie dodano jeszcze transakcji"}
